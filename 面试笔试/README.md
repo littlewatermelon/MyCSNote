@@ -1,4 +1,4 @@
 [大疆](大疆.md)
 
-[谷歌kick start](谷歌kick start.md)
+[谷歌](谷歌.md)
 
