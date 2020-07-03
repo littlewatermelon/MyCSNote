@@ -48,3 +48,32 @@
 
 
 
+
+
+##### **数据结构**
+
+链表和树最常被问：因为要操作大量指针，所以要留意代码鲁棒性，否则会出现程序崩溃。
+
+栈和递归紧密相关，队列和广度优先遍历紧密相关。
+
+
+
+数组：C++ vector扩容时有大量的额外操作，会对时间性能产生影响，要尽量减少改变数组大小的次数。
+
+sizeof(); 如果是数组名则是数组的大小；如果是指针则是指针的大小；
+
+**** **当数组作为函数的参数进行传递时，数组就会退化为同类型的指针**
+
+```C++
+int GetSize(int data[]){
+    return sizeof(data);
+}
+int _tmain(int argc, _TCHAR *argv[]){
+    int data[] = {1,2,3,4,5};
+    int size = GetSize(data);//size = 4
+    int size1 = sizeof(data);//size = 20
+    int *data1 = data;
+    int size2 = sizeof(data1);//size = 4
+}
+```
+
