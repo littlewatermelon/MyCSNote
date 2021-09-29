@@ -1,0 +1,9 @@
+https://github.com/ptsantar/Defining-and-predicting-troll-vulnerability-in-online-social-media
+https://github.com/fighting41love/funNLP
+https://github.com/crownpku/Awesome-Chinese-NLP
+https://github.com/goto456/stopwords
+https://github.com/dataabc/weiboSpider
+https://github.com/brightmart/nlp_chinese_corpus
+https://github.com/dengxiuqi/weibo2018
+https://github.com/andreiolariu/kaggle-insults
+https://github.com/SophonPlus/ChineseNlpCorpus
